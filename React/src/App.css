@@ -1,0 +1,134 @@
+.main-container {
+  padding: 20px;
+}
+
+.header {
+  /* background-color: aqua; */
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.header h1 {
+  margin-top: 0;
+  font-weight: bolder;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.green {
+  color: #128a18;
+}
+
+.red {
+  color: red;
+}
+
+.start-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.start-item {
+  margin-right: 20px; /* Adjust this value for spacing */
+  text-align: center;
+}
+
+.start-item button,
+.friend button {
+  background-color: #ff6347;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.start-item button:hover,
+.friend button:hover {
+  background-color: #ff3b20;
+}
+
+.start-item a {
+  font-weight: bold;
+  text-decoration: none;  /* Remove underline */
+}
+
+.start-link,
+.submit {
+  max-width: fit-content;
+  display: block;
+  margin: 20px auto; /* Set top and bottom margin to 20px and auto for left and right margins */
+  text-align: center;
+  text-decoration: none;
+  background-color: #4caf50;
+  color: black;
+  padding: 10px 20px;
+}
+
+.start-link:hover,
+.submit:hover {
+  background-color: #128a18;
+}
+
+.container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.image {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.details {
+  flex: 1;
+}
+
+.attendance {
+  margin-top: 80px;
+  flex: 1;
+}
+
+.button {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+.button button {
+  background-color: turquoise;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.button button:hover {
+  background-color: rgb(64, 173, 175);
+}
+
+.friend li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  position: relative;  /* Add position relative */
+}
+
+.friend li::before {
+  content: "\2022";  /* Unicode character for bullet point */
+  color: black;  /* Change color if needed */
+  font-size: 1.2em;  /* Adjust size if needed */
+  margin-right: 0.5em;  /* Adjust spacing between bullet and text if needed */
+  position: absolute;  /* Position the bullet point absolutely */
+  left: -1.5em;  /* Adjust position to align with the text */
+}
+
+.friendy {
+  flex: 1;
+}
+
+.Dfbtn {
+  margin-right: 100px;
+}
